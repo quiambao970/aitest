@@ -15,7 +15,6 @@ ignore_user_abort(1);
 require_once("klaviyo/klaviyo-helper-new.php" );
 require_once("inventree.php");
 require_once("easypost/easypost-php/lib/easypost.php");
-\EasyPost\EasyPost::setApiKey('URWVm1qFfJ0Z733uEl5kiw');
 
 $servername = getenv('cr_db_host');
 $username = getenv('cr_db_username');
